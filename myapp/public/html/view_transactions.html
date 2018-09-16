@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>mDrift Accounting Central | Accounting Simplified for Everyone at mDrift!</title>
+	<meta name="description" content="Splasher is a Dashboard & Admin Site Responsive Template by hencework." />
+	<meta name="keywords" content="admin, admin dashboard, admin template, cms, crm, Splasher Admin, Splasheradmin, premium admin templates, responsive admin, sass, panel, software, ui, visualization, web app, application" />
+	<meta name="author" content="hencework"/>
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	
+	<!-- Data table CSS -->
+	<link href="../vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>
+	
+	<!-- Toast CSS -->
+	<link href="../vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- Morris Charts CSS -->
+    <link href="../vendors/bower_components/morris.js/morris.css" rel="stylesheet" type="text/css"/>
+	
+	<!-- Chartist CSS -->
+	<link href="../vendors/bower_components/chartist/dist/chartist.min.css" rel="stylesheet" type="text/css"/>
+	<!-- Date Time Picker -->
+	<link href="../vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"/>
+
+
+	<!-- vector map CSS -->
+	<link href="../vendors/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" type="text/css"/>
+	
+	<!-- Custom CSS -->
+	<link href="dist/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<!-- Preloader -->
+	<div class="preloader-it">
+		<div class="la-anim-1"></div>
+	</div>
+	<!-- /Preloader -->
+    <div class="wrapper theme-2-active navbar-top-light horizontal-nav">
+		<!-- Top Menu Items -->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="nav-wrap">
+				<div class="mobile-only-brand pull-left">
+					<div class="nav-header pull-left">
+						<div class="logo-wrap">
+							<a href="index.html">
+								<img class="brand-img" src="../img/logo_mdrift1.png" alt="brand"/>
+								<span class="brand-text"><img  src="../img/logo_mdrift1.png" alt="brand"/></span>
+							</a>
+						</div>
+					</div>	
+					
+					
+				</div>
+				<div id="mobile_only_nav" class="mobile-only-nav pull-right">
+					<ul class="nav navbar-right top-nav pull-right">
+						
+
+						<li>
+							<a id="open_right_sidebar" href="#"><i class="zmdi zmdi-settings  top-nav-icon"></i></a>
+						</li>
+						<li class="dropdown auth-drp">
+							<a href="#" class="dropdown-toggle pr-0" data-toggle="dropdown"><img src="../img/user1.png" alt="user_auth" class="user-auth-img img-circle"/><span class="user-online-status"></span><span class="user-auth-name inline-block">micheal hogan <span class="ti-angle-down"></span></span></a>
+							<ul class="dropdown-menu user-auth-dropdown" data-dropdown-in="flipInX" data-dropdown-out="flipOutX">
+								<li>
+									<a href="profile.html"><i class="zmdi zmdi-account"></i><span>Profile</span></a>
+								</li>
+								<li>
+									<a href="#"><i class="zmdi zmdi-card"></i><span>my balance</span></a>
+								</li>
+								<li>
+									<a href="inbox.html"><i class="zmdi zmdi-email"></i><span>Inbox</span></a>
+								</li>
+								<li>
+									<a href="#"><i class="zmdi zmdi-settings"></i><span>Settings</span></a>
+								</li>
+								<li class="divider"></li>
+								<li class="sub-menu show-on-hover">
+									<a href="#" class="dropdown-toggle pr-0 level-2-drp"><i class="zmdi zmdi-check text-success"></i> available</a>
+									<ul class="dropdown-menu open-left-side">
+										<li>
+											<a href="#"><i class="zmdi zmdi-check text-success"></i><span>available</span></a>
+										</li>
+										<li>
+											<a href="#"><i class="zmdi zmdi-circle-o text-warning"></i><span>busy</span></a>
+										</li>
+										<li>
+											<a href="#"><i class="zmdi zmdi-minus-circle-outline text-danger"></i><span>offline</span></a>
+										</li>
+									</ul>	
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><i class="zmdi zmdi-power"></i><span>Log Out</span></a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>	
+				</div>
+			</nav>
+			<!-- /Top Menu Items -->
+			
+			<!-- Left Sidebar Menu -->
+			<div class="fixed-sidebar-left">
+				<ul class="nav navbar-nav side-nav nicescroll-bar">
+					<li class="navigation-header">
+						<span>Main</span> 
+						<hr/>
+					</li>
+					<li>
+						<a class="active" href="javascript:void(0);" data-toggle="collapse" data-target="#dashboard_dr"><div class="pull-left"><i class="ti-dashboard mr-20"></i><span class="right-nav-text">Insights</span></div><div class="pull-right"><i class="ti-angle-down"></i></div><div class="clearfix"></div></a>
+						<ul id="dashboard_dr" class="collapse collapse-level-1">
+							<li>
+								<a class="active-page" href="index.html">Dashboard</a>
+							</li>
+							<li>
+								<a href="index2.html"><div class="pull-left"><span>Reports</span></div><div class="pull-right"><span class="label label-success">Hot</span></div><div class="clearfix"></div></a>
+							</li>
+							<li>
+								<a href="profile.html">Search</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:void(0);" data-toggle="collapse" data-target="#ecom_dr"><div class="pull-left"><i class="ti-shopping-cart  mr-20"></i><span class="right-nav-text">Accounts</span></div><div class="pull-right"><i class="ti-angle-down"></i></div><div class="clearfix"></div></a>
+						<ul id="ecom_dr" class="collapse collapse-level-1">
+							<li>
+								<a href="e-commerce.html">All Accounts</a>
+							</li>
+							<li>
+								<a href="product.html">Account Heads</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="navigation-header mt-20">
+						<span>component</span> 
+						<hr/>
+					</li>
+					<li>
+						<a href="javascript:void(0);" data-toggle="collapse" data-target="#ui_dr"><div class="pull-left"><i class="ti-pencil-alt  mr-20"></i><span class="right-nav-text">Transactions</span></div><div class="pull-right"><i class="ti-angle-down "></i></div><div class="clearfix"></div></a>
+						<ul id="ui_dr" class="collapse collapse-level-1 one-col-list">
+							<li>
+								<a href="panels-wells.html">View Transactions</a>
+							</li>
+							<li>
+								<a href="panels-wells.html">Report Transaction</a>
+							</li>
+
+							<li>
+								<a href="javascript:void(0);" data-toggle="collapse" data-target="#email_dr">Banks<div class="pull-right"><i class="ti-angle-down "></i></div><div class="clearfix"></div></a>
+								<ul id="email_dr" class="collapse collapse-level-2">
+									<li>
+										<a href="inbox.html">Icici Bank</a>
+
+									</li>
+									<li>
+										<a href="inbox.html">South Indian</a>
+
+									</li>
+									<li>
+										<a href="inbox.html">Other Bank</a>
+
+									</li>
+
+								</ul>
+							</li>
+							
+						</ul>
+					</li>
+
+					<li>
+						<a href="javascript:void(0);" data-toggle="collapse" data-target="#ui_dr"><div class="pull-left"><i class="ti-pencil-alt  mr-20"></i><span class="right-nav-text">Cost Centers</span></div><div class="pull-right"><i class="ti-angle-down "></i></div><div class="clearfix"></div></a>
+						<ul id="ui_dr" class="collapse collapse-level-1 one-col-list">
+							<li>
+								<a href="panels-wells.html">Internal Groups</a>
+							</li>
+							<li>
+								<a href="modals.html">Vendors</a>
+							</li>
+							<li>
+								<a href="sweetalert.html">Customers</a>
+							</li>
+							<li>
+								<a href="sweetalert.html">People Accounts</a>
+							</li>
+							<li>
+								<a href="notifications.html">Reports on Cost Centers</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="javascript:void(0);" data-toggle="collapse" data-target="#ui_dr"><div class="pull-left"><i class="ti-pencil-alt  mr-20"></i><span class="right-nav-text">Billing</span></div><div class="pull-right"><i class="ti-angle-down "></i></div><div class="clearfix"></div></a>
+						<ul id="ui_dr" class="collapse collapse-level-1 one-col-list">
+							<li>
+								<a href="panels-wells.html">View Invoices</a>
+							</li>
+							<li>
+								<a href="modals.html">Create Invoice</a>
+							</li>
+							<li>
+								<a href="sweetalert.html">Manage Customers</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:void(0);" data-toggle="collapse" data-target="#ui_dr"><div class="pull-left"><i class="ti-pencil-alt  mr-20"></i><span class="right-nav-text">Approvals</span></div><div class="pull-right"><i class="ti-angle-down "></i></div><div class="clearfix"></div></a>
+						<ul id="ui_dr" class="collapse collapse-level-1 one-col-list">
+							<li>
+								<a href="panels-wells.html">Approval Queue</a>
+							</li>
+							<li>
+								<a href="modals.html">My Requests</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="javascript:void(0);" data-toggle="collapse" data-target="#ui_dr"><div class="pull-left"><i class="ti-pencil-alt  mr-20"></i><span class="right-nav-text">Other</span></div><div class="pull-right"><i class="ti-angle-down "></i></div><div class="clearfix"></div></a>
+						<ul id="ui_dr" class="collapse collapse-level-1 one-col-list">
+							<li>
+								<a href="panels-wells.html">Internal Groups</a>
+							</li>
+							<li>
+								<a href="modals.html">Vendors</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- /Left Sidebar Menu -->
+			
+			<!-- Right Sidebar Menu -->
+
+			<!-- /Right Sidebar Menu -->
+				
+			
+		
+        <!-- Main Content -->
+        		<div class="page-wrapper">
+            <div class="container pt-30">
+				<!-- Row -->
+				<!-- Title -->
+				<div class="row heading-bg">
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+					  <h5 class="txt-dark">View Transactions</h5>
+					</div>
+					<!-- Breadcrumb -->
+					<div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+					  <ol class="breadcrumb">
+						<li><a href="index.html">Transactions</a></li>
+						<li class="active"><span>View All Transactions</span></li>
+					  </ol>
+					</div>
+					<!-- /Breadcrumb -->
+				</div>
+				<!-- /Title -->
+			<div class="row">
+					<div class="col-lg-12">
+						<div class="panel panel-default card-view pa-0">
+							<div class="panel-wrapper collapse in">
+								<div class="panel-body pa-0">
+									<div class="contact-list">
+										<div class="row">
+											<aside class="col-lg-2 col-md-4 pr-0">
+												<div class="ma-15">
+													<a href="#myModal" data-toggle="modal"  title="Compose"    class="btn btn-orange btn-sm btn-block">
+													Add new Transaction
+													</a>
+													<!-- Modal -->
+													<div aria-hidden="true" role="dialog" tabindex="-1" id="myModal" class="modal fade" style="display: none;">
+														<div class="modal-dialog">
+															<div class="modal-content">
+																<div class="modal-header">
+																	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+																	<h4 class="modal-title" id="myModalLabel">Add New Contact</h4>
+																</div>
+																<div class="modal-body">
+																	<form class="form-horizontal form-material">
+																		<div class="form-group">
+																			<div class="col-md-12 mb-20">
+																				<input type="text" class="form-control" placeholder="Type name">
+																			</div>
+																			<div class="col-md-12 mb-20">
+																				<input type="text" class="form-control" placeholder="Email">
+																			</div>
+																			<div class="col-md-12 mb-20">
+																				<input type="text" class="form-control" placeholder="Phone">
+																			</div>
+																			<div class="col-md-12 mb-20">
+																				<input type="text" class="form-control" placeholder="Designation">
+																			</div>
+																			<div class="col-md-12 mb-20">
+																				<input type="text" class="form-control" placeholder="Age">
+																			</div>
+																			<div class="col-md-12 mb-20">
+																				<input type="text" class="form-control" placeholder="Date of joining">
+																			</div>
+																			<div class="col-md-12 mb-20">
+																				<input type="text" class="form-control" placeholder="Salary">
+																			</div>
+																			<div class="col-md-12 mb-20">
+																				<div class="fileupload btn btn-default btn-sm btn-outline btn-rounded"><span><i class="ion-upload m-r-5"></i>Upload Contact Image</span>
+																					<input type="file" class="upload">
+																				</div>
+																			</div>
+																		</div>
+																	</form>
+																</div>
+																<div class="modal-footer">
+																	<button type="button" class="btn btn-orange" data-dismiss="modal">Save</button>
+																	<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+																</div>
+															</div>
+															<!-- /.modal-content -->
+														</div>
+														<!-- /.modal-dialog -->
+													</div>
+													<!-- /.modal -->
+												</div>
+												<ul class="inbox-nav mb-30">
+													<li>
+													<div class="checkbox checkbox-primary">
+														&nbsp&nbsp
+														<input type="checkbox" id="checkbox01"/>
+														<label for="checkbox01">ICICI</label>
+														</div>
+													</li>
+												
+													
+													<li>
+														<div class="checkbox checkbox-primary">
+														&nbsp&nbsp
+														<input type="checkbox" id="checkbox02"/>
+														<label for="checkbox01">SIB</label>
+														</div>
+													</li>
+													<li>
+														<div class="checkbox checkbox-primary">
+														&nbsp&nbsp
+														<input type="checkbox" id="checkbox03"/>
+														<label for="checkbox01">Credit</label>
+														</div>
+													<li>
+														<div class="checkbox checkbox-primary">
+														&nbsp&nbsp
+														<input type="checkbox" id="checkbox04"/>
+														<label for="checkbox01">Debit</label>
+														</div>
+													<li>
+														<div class="checkbox checkbox-primary">
+														&nbsp&nbsp
+														<input type="checkbox" id="checkbox05"/>
+														<label for="checkbox01">Petty Cash</label>
+														</div>
+
+														</li>
+														<li>
+														
+														<div class="checkbox checkbox-primary">
+														&nbsp&nbsp
+														<input type="checkbox" id="checkbox06"/>
+														<label for="checkbox01">Reimbursements</label>
+														</div>
+														</li>
+														<li>
+														<div class="checkbox checkbox-primary">
+														&nbsp&nbsp
+														<input type="checkbox" id="checkbox07"/>
+														<label for="checkbox01">Salary</label>
+														</div>
+														</li>
+														<li>
+														<div class="checkbox checkbox-primary">
+														&nbsp&nbsp
+														<input type="checkbox" id="checkbox08"/>
+														<label for="checkbox01">Digital</label>
+														</div>
+														</li>
+
+
+
+												</ul>
+														<div class="col-sm-12">
+															<label class="control-label mb-10 text-left">From Date </label>
+															<div class='input-group date' id='datetimepicker1'>
+																<input type='text' class="form-control" />
+																<span class="input-group-addon">
+																	<span class="fa fa-calendar"></span>
+																</span>
+															</div>
+														</div>
+														<div class="col-sm-12"></div>
+														<div class="col-sm-12">
+															<label class="control-label mb-10 text-left">To Date </label>
+															<div class='input-group date' id='datetimepicker2'>
+																<input type='text' class="form-control" />
+																<span class="input-group-addon">
+																	<span class="fa fa-calendar"></span>
+																</span>
+															</div>
+														</div>
+														
+												<a class="txt-orange create-label  pa-15" href="javascript:void(0)" data-toggle="modal" data-target="#myModal_1">Filter Results</a>
+												<div id="myModal_1" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+													<div class="modal-dialog">
+														<div class="modal-content">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+																<h5 class="modal-title" id="myModalLabel">Add Lable</h5>
+															</div>
+															<div class="modal-body">
+																<form>
+																	<div class="form-group">
+																		<label class="control-label mb-10">Name of Label</label>
+																		<input type="text" class="form-control" placeholder="Type name">
+																	</div>
+																	<div class="form-group">
+																		<label class="control-label mb-10">Transactions per Page</label>
+																		<select class="form-control">
+																			<option>All Contacts</option>
+																			<option>10</option>
+																			<option>20</option>
+																			<option>30</option>
+																			<option>40</option>
+																			<option>Custom</option>
+																		</select>
+																	</div>
+																</form>
+															</div>
+															<div class="modal-footer">
+																<button type="button" class="btn btn-orange waves-effect" data-dismiss="modal">Save</button>
+																<button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
+															</div>
+														</div>
+														<!-- /.modal-content -->
+													</div>
+													<!-- /.modal-dialog -->
+												</div>
+											</aside>
+											
+											<aside class="col-lg-10 col-md-8 pl-0">
+												<div class="panel pa-0">
+												<div class="panel-wrapper collapse in">
+												<div class="panel-body  pa-0">
+													<div class="table-responsive mt-15 mb-15">
+														<table id="datable_1" class="table  display table-hover mb-30" data-page-size="10">
+															<thead>
+																<tr>
+																	<th>ID</th>
+																	<th>Remarks</th>
+																	<th>Cost Center</th>
+																	<th>Bank</th>
+																	<th>Reported By</th>
+																	<th>Reported Date</th>
+																	<th>Actual Date</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>1</td>
+																	<td><a href="#">Jens Brincker</a></td>
+																	<td>jens@gmail.com</td>
+																	<td>+123 456 789</td>
+																	<td><span class="label label-danger">Designer</span> </td>
+																	<td>12-10-2014</td>
+																	<td>$1200</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>2</td>
+																	<td><a href="#">Mark Hay</a></td>
+																	<td>markh@gmail.com</td>
+																	<td>+234 456 789</td>
+																	<td><span class="label label-info">Developer</span> </td>
+																	<td>10-09-2014</td>
+																	<td>$1800</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>3</td>
+																	<td><a href="#">Anthony Davie</a></td>
+																	<td>nthonyavie@gmail.com</td>
+																	<td>+345 456 789</td>
+																	<td><span class="label label-success">Accountant</span></td>
+																	<td>1-10-2013</td>
+																	<td>$2200</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>4</td>
+																	<td><a href="#">David Perry</a></td>
+																	<td>david@gmail.com</td>
+																	<td>+456 456 789</td>
+																	<td><span class="label label-inverse">HR</span></td>
+																	<td>2-10-2016</td>
+																	<td>$200</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>5</td>
+																	<td><a href="#">Alan Gilchrist</a></td>
+																	<td>alan@gmail.com</td>
+																	<td>+567 456 789</td>
+																	<td><span class="label label-danger">Manager</span></td>
+																	<td>10-9-2015</td>
+																	<td>$1200</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>6</td>
+																	<td><a href="#">Sue Woodger</a></td>
+																	<td>suew@gmail.com</td>
+																	<td>+678 456 789</td>
+																	<td><span class="label label-warning">Chairman</span></td>
+																	<td>10-5-2013</td>
+																	<td>$1500</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>7</td>
+																	<td><a href="#">Barry Croucher</a></td>
+																	<td>barry@gmail.com</td>
+																	<td>+123 456 789</td>
+																	<td><span class="label label-danger">Designer</span></td>
+																	<td>05-10-2012</td>
+																	<td>$3200</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>8</td>
+																	<td><a href="#">Ian Vaughn</a></td>
+																	<td>ian@gmail.com</td>
+																	<td>+234 456 789</td>
+																	<td><span class="label label-info">Developer</span></td>
+																	<td>11-10-2014</td>
+																	<td>$1800</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>9</td>
+																	<td><a href="#">Serena Fredrick</a></td>
+																	<td>serena@gmail.com</td>
+																	<td>+345 456 789</td>
+																	<td><span class="label label-success">Accountant</span></td>
+																	<td>12-5-2016</td>
+																	<td>$100</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>10</td>
+																	<td><a href="#">Tim Gray</a></td>
+																	<td>tim@gmail.com</td>
+																	<td>+456 456 789</td>
+																	<td><span class="label label-inverse">HR</span></td>
+																	<td>18-5-2009</td>
+																	<td>$4200</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>11</td>
+																	<td><a href="#">Jeremy Upton</a></td>
+																	<td>jeremy@gmail.com</td>
+																	<td>+567 456 789</td>
+																	<td><span class="label label-danger">Manager</span></td>
+																	<td>12-10-2010</td>
+																	<td>$5200</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>12</td>
+																	<td><a href="#">Emily Hick</a></td>
+																	<td>emily@gmail.com</td>
+																	<td>+123 456 789</td>
+																	<td><span class="label label-danger">Designer</span> </td>
+																	<td>12-10-2014</td>
+																	<td>$1200</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>13</td>
+																	<td><a href="#">Tom Armitage</a></td>
+																	<td>tom@gmail.com</td>
+																	<td>+234 456 789</td>
+																	<td><span class="label label-info">Developer</span> </td>
+																	<td>10-09-2014</td>
+																	<td>$1800</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+																<tr>
+																	<td>14</td>
+																	<td><a href="#">Rhian Davies</a></td>
+																	<td>rhian@gmail.com</td>
+																	<td>+345 456 789</td>
+																	<td><span class="label label-success">Accountant</span></td>
+																	<td>1-10-2013</td>
+																	<td>$2200</td>
+																	<td><a href="javascript:void(0)" class="text-inverse pr-10" title="Edit" data-toggle="tooltip"><i class="zmdi zmdi-edit txt-warning"></i></a><a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip"><i class="zmdi zmdi-delete txt-danger"></i></a></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+												</div>
+												</div>
+											</aside>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+
+        <!-- /Main Content -->
+
+    </div>
+    <!-- /#wrapper -->
+	
+	<!-- JavaScript -->
+	
+    <!-- jQuery -->
+    <script src="../vendors/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+	<!-- Moment JavaScript -->
+	<script type="text/javascript" src="../vendors/bower_components/moment/min/moment-with-locales.min.js"></script>
+
+    
+	<!-- Data table JavaScript -->
+	<script src="../vendors/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+	
+	<!-- Slimscroll JavaScript -->
+	<script src="dist/js/jquery.slimscroll.js"></script>
+	
+	<!-- Progressbar Animation JavaScript -->
+	<script src="../vendors/bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
+	<script src="../vendors/bower_components/jquery.counterup/jquery.counterup.min.js"></script>
+	
+	<!-- Fancy Dropdown JS -->
+	<script src="dist/js/dropdown-bootstrap-extended.js"></script>
+	
+	<!-- Sparkline JavaScript -->
+	<script src="../vendors/jquery.sparkline/dist/jquery.sparkline.min.js"></script>
+	
+	<!-- Owl JavaScript -->
+	<script src="../vendors/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+	
+	<!-- Switchery JavaScript -->
+	<script src="../vendors/bower_components/switchery/dist/switchery.min.js"></script>
+	
+	<!-- Vector Maps JavaScript -->
+    <script src="../vendors/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
+	<script src="../vendors/vectormap/jquery-jvectormap-us-aea-en.js"></script>
+    <script src="../vendors/vectormap/jquery-jvectormap-world-mill-en.js"></script>
+	<script src="dist/js/vectormap-data.js"></script>
+	
+	<!-- Toast JavaScript -->
+	<script src="../vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js"></script>
+	
+	<!-- Piety JavaScript -->
+	<script src="../vendors/bower_components/peity/jquery.peity.min.js"></script>
+	<script src="dist/js/peity-data.js"></script>
+	
+	<!-- EChartJS JavaScript -->
+	<script src="../vendors/bower_components/echarts/dist/echarts-en.min.js"></script>
+	
+	<!-- Morris Charts JavaScript -->
+    <script src="../vendors/bower_components/raphael/raphael.min.js"></script>
+    <script src="../vendors/bower_components/morris.js/morris.min.js"></script>
+    <script src="../vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js"></script>
+	
+	<!-- ChartJS JavaScript -->
+	<script src="../vendors/chart.js/Chart.min.js"></script>
+
+
+	<script type="text/javascript" src="../vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+
+		<script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+            $(function () {
+                $('#datetimepicker2').datetimepicker();
+            });
+
+        </script>
+
+		<!-- Form Picker Init JavaScript -->
+		
+		<!-- Slimscroll JavaScript -->
+	
+		<!-- Fancy Dropdown JS -->
+		
+		<!-- Owl JavaScript -->
+	
+		<!-- Switchery JavaScript -->
+		<script src="../vendors/bower_components/switchery/dist/switchery.min.js"></script>
+	
+		<!-- Init JavaScript -->
+	
+
+
+	<!-- Init JavaScript -->
+	<script src="dist/js/init.js"></script>
+	<script src="dist/js/dashboard-data.js"></script>
+</body>
+
+</html>
