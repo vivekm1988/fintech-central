@@ -1,0 +1,759 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"col-md-8"
+			],
+			[
+				"ba",
+				"backgroundWhite"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"co",
+				"col-md-4"
+			],
+			[
+				"table",
+				"table_id"
+			],
+			[
+				"re",
+				"resultArr"
+			],
+			[
+				"get",
+				"getAllUsers"
+			],
+			[
+				"nu",
+				"num_rows"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"st",
+				"sticky"
+			],
+			[
+				"numbe",
+				"number_of_pages"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"resu",
+				"resultArr"
+			],
+			[
+				"my",
+				"myArr"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"la",
+				"last_name"
+			],
+			[
+				"data",
+				"datable_1"
+			],
+			[
+				"toast",
+				"toastr"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"name",
+				"name2"
+			],
+			[
+				"mb",
+				"mb-10"
+			],
+			[
+				"con",
+				"control-label"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"text",
+				"text-warning"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"li",
+				"listing"
+			],
+			[
+				"short",
+				"short_title"
+			],
+			[
+				"all",
+				"all_entries"
+			],
+			[
+				"a",
+				"all_entries"
+			],
+			[
+				"lis",
+				"listing"
+			],
+			[
+				"l",
+				"listing_name"
+			],
+			[
+				"conne",
+				"connections"
+			],
+			[
+				"c",
+				"connection"
+			],
+			[
+				"url",
+				"urls"
+			],
+			[
+				"wel",
+				"welcome_note_1"
+			],
+			[
+				"offer",
+				"offertype"
+			],
+			[
+				"room",
+				"roomid"
+			],
+			[
+				"chat",
+				"chatroomid"
+			],
+			[
+				"roo",
+				"rootScope"
+			],
+			[
+				"cou",
+				"Count"
+			],
+			[
+				"custome",
+				"customername"
+			],
+			[
+				"cust",
+				"customerid"
+			],
+			[
+				"customer",
+				"customer_id"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"cre",
+				"createquoteData"
+			],
+			[
+				"cus",
+				"customername"
+			],
+			[
+				"leadd",
+				"leaddetails"
+			],
+			[
+				"cretaeCh",
+				"createChatroomQoute"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"rom",
+				"roomid"
+			],
+			[
+				"cha",
+				"chatmessages"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"Mess",
+				"Messages"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"sea",
+				"searchDeals"
+			],
+			[
+				"tag",
+				"tags"
+			],
+			[
+				"sub",
+				"subcat"
+			],
+			[
+				"getHome",
+				"getHomeCategories"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"firebaseB",
+				"firebaseBlogRef"
+			],
+			[
+				"firebaseHome",
+				"firebaseHomeOffer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/routes/test.js",
+			"settings":
+			{
+				"buffer_size": 1634,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "crud3.html",
+			"settings":
+			{
+				"buffer_size": 17714,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "create_costCenter.html",
+			"settings":
+			{
+				"buffer_size": 20458,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/modals.html",
+			"settings":
+			{
+				"buffer_size": 54900,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 1405188,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/config",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/html",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/images",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/javascripts",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/stylesheets",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/routes"
+	],
+	"file_history":
+	[
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/app.js",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/html/crud_trial.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/bootstrap-treeview.html",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/html/crud3.html",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/html/crud2.html",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/html/skeleton.html",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/routes/users.js",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/config/mysql_config.js",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/package.json",
+		"/Users/mdrifttechnologies/Documents/expressTrials/trial1/app.js",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/basic-table.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/report_transactions.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/approval_queue.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/bootstrap-table.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/data-table.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/view_transactions.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/create_costCenter.html",
+		"/usr/local/mysql-8.0.12-macos10.13-x86_64/bin/mysql_config",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/form-advanced.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/form-element.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/form-file-upload.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/skeleton.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/form-picker.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/report_transaction.html",
+		"/Users/mdrifttechnologies/Downloads/ammu_tutorial/script.py",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/login.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/forgot-password.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/index.html",
+		"/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/trial/contact-list.html",
+		"/Users/mdrifttechnologies/Documents/NewUI/appView1.html",
+		"/Users/mdrifttechnologies/Documents/NewUI/appViewCSS.css",
+		"/Users/mdrifttechnologies/Documents/tebby-backend/logaloud/logaloud/settings.py",
+		"/Users/mdrifttechnologies/Documents/tebby-backend/requirements.txt",
+		"/Users/mdrifttechnologies/Documents/tebby-backend/.gitignore",
+		"/Users/mdrifttechnologies/Documents/tebby-backend/logaloud/mobilebackend/models/listing.py",
+		"/Users/mdrifttechnologies/Documents/tebby-backend/logaloud/mobilebackend/views/mobileapi.py",
+		"/Users/mdrifttechnologies/Documents/tebby-backend/logaloud/mobilebackend/urls/mobileapi.py",
+		"/Users/mdrifttechnologies/Documents/tebby-backend/logaloud/logaloud/urls.py",
+		"/Users/mdrifttechnologies/Documents/Lalaland Admin/AdminBSBMaterialDesign-master/pages/forms/basic-form-elements.html",
+		"/Users/mdrifttechnologies/Documents/Lalaland Admin/AdminBSBMaterialDesign-master/services_details.html",
+		"/Users/mdrifttechnologies/Documents/Lalaland Admin/AdminBSBMaterialDesign-master/image-gallery.html",
+		"/Users/mdrifttechnologies/Documents/Lalaland Admin/AdminBSBMaterialDesign-master/image_upload.html",
+		"/Users/mdrifttechnologies/Documents/Lalaland Admin/AdminBSBMaterialDesign-master/sign-in.html",
+		"/Users/mdrifttechnologies/Documents/Lalaland Admin/AdminBSBMaterialDesign-master/index.html",
+		"/Users/mdrifttechnologies/Documents/Lalaland Admin/AdminBSBMaterialDesign-master/services.html",
+		"/Users/mdrifttechnologies/Documents/Lalaland Admin/AdminBSBMaterialDesign-master/LICENSE.md",
+		"/Users/mdrifttechnologies/Documents/Lalaland Admin/AdminBSBMaterialDesign-master/index copy.html",
+		"/Users/mdrifttechnologies/Documents/Rocx/screenshot.py",
+		"/Users/mdrifttechnologies/Documents/OpenCVPythonRepo/webCam1/test.py",
+		"/Users/mdrifttechnologies/Documents/Rocx/untitled",
+		"/Users/mdrifttechnologies/Documents/AI_Programming/trial1/t1.py",
+		"/Users/mdrifttechnologies/Documents/Handymate/Handymate/www/templates/jobquotes.html",
+		"/Users/mdrifttechnologies/Documents/Handymate/handymate-vendor/www/templates/leadquotedetails.html",
+		"/Users/mdrifttechnologies/Documents/Handymate/handymate-vendor/www/js/controllers.js",
+		"/Users/mdrifttechnologies/Documents/Handymate/handymate-vendor/www/templates/leaddetails.html",
+		"/Users/mdrifttechnologies/Documents/Handymate/Handymate/www/templates/jobdetails.html",
+		"/Users/mdrifttechnologies/Documents/Handymate/handymate-vendor/www/templates/vendorstart.html",
+		"/Users/mdrifttechnologies/Documents/Handymate/Handymate/www/js/controllers.js",
+		"/Users/mdrifttechnologies/Documents/Handymate/HandymateSuperAdmin/www/templates/editquestionspages.html",
+		"/Users/mdrifttechnologies/Documents/Handymate/HandymateSuperAdmin/www/js/controllers.js",
+		"/Users/mdrifttechnologies/Documents/Handymate/Handymate/www/templates/customerstart.html",
+		"/Users/mdrifttechnologies/Documents/Handymate/HandymateSuperAdmin/www/templates/blog.html",
+		"/Users/mdrifttechnologies/Documents/Handymate/Handymate/www/templates/blog.html",
+		"/Users/mdrifttechnologies/Documents/Handymate/HandymateSuperAdmin/www/templates/article.html",
+		"/Users/mdrifttechnologies/Downloads/data.json",
+		"/Users/mdrifttechnologies/Desktop/icons/profileicons/feedpics/18.1 Providers_Search_Location.svg",
+		"/Users/mdrifttechnologies/Documents/Firebase IOS Chat Reference/LoginViewController.swift",
+		"/Users/mdrifttechnologies/Documents/Firebase IOS Chat Reference/ChatViewController.swift",
+		"/Users/mdrifttechnologies/Documents/Firebase IOS Chat Reference/ChannelListViewController.swift",
+		"/Users/mdrifttechnologies/Documents/Firebase IOS Chat Reference/CreateChannelCell.swift",
+		"/Users/mdrifttechnologies/Documents/recharge.py",
+		"/Users/mdrifttechnologies/Documents/untitled.cpp",
+		"/Users/mdrifttechnologies/Documents/Hi",
+		"/untitled"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".png",
+			"sticky",
+			"custom",
+			"toast",
+			"spla",
+			"Welcome to Splasher",
+			"path",
+			"indexRouter",
+			"select",
+			"selectpicker",
+			"data",
+			"multiple-select",
+			"myChk",
+			"Name",
+			"description",
+			"2",
+			"1",
+			"myModal",
+			"Add",
+			"ACTION",
+			"BASIC TABLE",
+			"dropify",
+			"select2",
+			"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n",
+			"select2",
+			"select",
+			"select.min",
+			"bootstrap-select-min",
+			"bootstrap-select-min.js",
+			"datetimepicker1",
+			"datetimepicker2",
+			"datetimepicker1",
+			"javascr",
+			"moment",
+			"span",
+			"form",
+			"\t\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Petty</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</li>",
+			"Contact",
+			"Dashboard",
+			"Dashb",
+			"open_right_sidebar",
+			"Hencework",
+			"2018 © Splasher. Pampered by Hencework",
+			"TRAFFIC TYPES",
+			"logo_mdrift",
+			"scss",
+			"manoj"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/routes/test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1506,
+								1506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 526.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "crud3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14563,
+								14563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "create_costCenter.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/mdrifttechnologies/Documents/UIForAdmin/Library/themeforest_splasher/html/demo-1/modals.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50732,
+								49204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 22108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/mdrifttechnologies/Documents/expressTrials/trial2/myapp/public/stylesheets/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1405188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3036,
+								3036
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2333.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "NodeAccountingCentral.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

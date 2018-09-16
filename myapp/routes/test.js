@@ -8,7 +8,10 @@ let connection = mysql.createConnection(config);
  
 // insert statment
 
+router.use(express.static(path.join(__dirname, 'public')));
 
+
+//res.sendFile(path.resolve('temp/index.html'));
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -16,8 +19,12 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/skeleton', function(req, res, next) {
-  res.sendFile('/static/html/skeleton.html');
+  res.sendFile(path.resolve(__dirname +'/../public/html/skeleton.html'));
 });
+
+router.get('/skeleton2', function(req, res, next) {
+	res.sendFile(path.resolve(__dirname +'/../public/test/html/skeleton.html'));
+  });
 
 router.get('/crud', function(req, res, next) {
   res.sendFile(__dirname + '/../public/html/skeleton.html');
